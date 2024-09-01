@@ -1,6 +1,6 @@
-NAME		= fixed
-SRC			= main.cpp Fixed.cpp
-OBJ			= main.o Fixed.o
+NAME		= animal
+SRC			= main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp Brain.cpp
+OBJ			= main.o Animal.o Cat.o Dog.o WrongAnimal.o WrongCat.o Brain.o
 CC			= g++
 FLAGS		= -Wall -Wextra -Werror -std=c++98
 RM			= rm -f
